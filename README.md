@@ -76,22 +76,3 @@ Run the Python file in your workspace
 Open the sudoku_game exe located in the dist folder
 
 <p align="right">(<a href="#about-the-project">back to top</a>)</p>
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [X] Implement Static Version of the Administration tool
-- [X] Implement Static Version of the Volunteer tool
-- [X] Write the API Calls for our Apps
-- [X] Modify Static Versions of our Apps to leverage our API
-- [X] Create Documentation for our API
-- [ ] Add Documentation in a /docs Folder
-- [ ] Add Test cases in a /test Folder
-
-
-<p align="right">(<a href="#about-the-project">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[npm-installer]: https://nodejs.org/en/download/
