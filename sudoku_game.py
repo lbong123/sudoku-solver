@@ -9,33 +9,33 @@ WINDOW = pygame.display.set_mode((WIDTH, HEIGHT))
 
 # logo and title
 pygame.display.set_caption("Sudoku")
-icon = pygame.image.load('logo.png')
+icon = pygame.image.load('images/logo.png')
 pygame.display.set_icon(icon)
 
 
 # background
-background = pygame.image.load("background.png")
+background = pygame.image.load("images/background.png")
 background = pygame.transform.scale(background, (WIDTH,HEIGHT))
-generButton = pygame.transform.scale(pygame.image.load("gener.png"), (180, 80))
-solveButton = pygame.transform.scale(pygame.image.load("solve.png"), (180,80))
-checkButton = pygame.transform.scale(pygame.image.load("check.png"), (180,80))
+generButton = pygame.transform.scale(pygame.image.load("images/gener.png"), (180, 80))
+solveButton = pygame.transform.scale(pygame.image.load("images/solve.png"), (180,80))
+checkButton = pygame.transform.scale(pygame.image.load("images/check.png"), (180,80))
 
 
 # images list
 images = [
-    pygame.image.load("blank.png"),
-    pygame.transform.scale(pygame.image.load("newOne.png"), (57,57)),
-    pygame.transform.scale(pygame.image.load("two.png"), (57,57)),
-    pygame.transform.scale(pygame.image.load("three.png"), (57,57)),
-    pygame.transform.scale(pygame.image.load("newFour.png"), (57,57)),
-    pygame.transform.scale(pygame.image.load("newFive.png"), (57,57)),
-    pygame.transform.scale(pygame.image.load("six.png"), (57,57)),
-    pygame.transform.scale(pygame.image.load("seven.png"), (57,57)),
-    pygame.transform.scale(pygame.image.load("eight.png"), (57,57)),
-    pygame.transform.scale(pygame.image.load("nine.png"), (57,57)),
-    pygame.image.load("immutable.png"),
-    pygame.image.load("standard.png"),
-    pygame.image.load("error.png")
+    pygame.image.load("images/blank.png"),
+    pygame.transform.scale(pygame.image.load("images/newOne.png"), (57,57)),
+    pygame.transform.scale(pygame.image.load("images/two.png"), (57,57)),
+    pygame.transform.scale(pygame.image.load("images/three.png"), (57,57)),
+    pygame.transform.scale(pygame.image.load("images/newFour.png"), (57,57)),
+    pygame.transform.scale(pygame.image.load("images/newFive.png"), (57,57)),
+    pygame.transform.scale(pygame.image.load("images/six.png"), (57,57)),
+    pygame.transform.scale(pygame.image.load("images/seven.png"), (57,57)),
+    pygame.transform.scale(pygame.image.load("images/eight.png"), (57,57)),
+    pygame.transform.scale(pygame.image.load("images/nine.png"), (57,57)),
+    pygame.image.load("images/immutable.png"),
+    pygame.image.load("images/standard.png"),
+    pygame.image.load("images/error.png")
 ]
 
 
